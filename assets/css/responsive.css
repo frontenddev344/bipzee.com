@@ -18,14 +18,15 @@
         left: 0;
         height: 100vh;
         width: 100%;
-        background-color: #5b8e2d;
-        transform: translateX(-100%);
+        background-color: #5369ff;
+        transform: translateX(100%);
         transition: all 0.7s ease;
         z-index: 50;
         justify-content: flex-start;
         color: #fff;
         overflow: hidden;
     }
+
     .menuToggle .main-navbar {
         transform: translateX(0);
     }
@@ -51,7 +52,7 @@
         border-color: #fff;
         color: #fff;
     }
-    
+
     .main-navbar ul li a:hover {
         border-color: #fff;
         color: #fff;
@@ -68,18 +69,37 @@
         cursor: pointer;
         border: 1px solid #fff;
         padding: 5px 10px;
-           transition: 0.3s all ease;
+        transition: 0.3s all ease;
     }
 
     .close-icon:hover {
         border-radius: 50%;
     }
+    
 
 
 }
 
 @media screen and (max-width:768px) {}
 
-@media screen and (max-width:576px) {}
+@media screen and (max-width:576px) {
 
-@media screen and (max-width:480px) {}
+
+
+
+
+    .footer .footer-items ul li a {
+        font-size: 15px;
+    }
+    .menu-links,.social-tags {
+        width: 45%;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .footer-items {
+        width: 100%;
+        text-align: center;
+        margin-bottom: 40px;
+    }
+}

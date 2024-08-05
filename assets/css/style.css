@@ -453,7 +453,7 @@ h2.section-heading {
 /* Footer CSS Start */
 .footer {
   background-image: url("../images/footer-bg.jpg");
-  background-color: rgba(0 0 0/70%);
+  background-color: rgba(0 0 0/80%);
   background-position: center;
   background-blend-mode: multiply;
   padding: 40px 0;
@@ -515,14 +515,14 @@ h2.section-heading {
 }
 
 .footer .footer-items ul li a.active {
-  border-color: #87d444;
-  color: #87d444;
+  border-color: #5369ff;
+  color: #5369ff;
 }
 
 .footer .footer-items ul li a:hover {
-  border-bottom: 1px solid #87d444;
+  border-bottom: 1px solid #5369ff;
   transform: translateX(5px);
-  color: #87d444;
+  color: #5369ff;
 }
 
 .footer-social-icons {
@@ -533,7 +533,7 @@ h2.section-heading {
   padding: 15px 0;
   text-align: center;
   margin: auto 0;
-  border: 1px solid #87d444;
+  border: 1px solid #5369ff;
   max-width: 450px;
   margin: 0 auto;
 }

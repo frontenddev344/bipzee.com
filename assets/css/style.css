@@ -10,8 +10,6 @@
 }
 
 body {
-  margin: 0;
-  padding: 0;
   font-family: "Open Sans", sans-serif;
 }
 
@@ -26,7 +24,8 @@ h6 {
 
 p {
   line-height: 1.5;
-
+  padding: 0;
+  margin: 0;
 }
 
 ul {
@@ -63,9 +62,10 @@ img {
 /* Global CSS End */
 
 /* Section Heading CSS Start */
-h2.section-heading{
+h2.section-heading {
   font-size: 40px;
 }
+
 /* Section Heading CSS End*/
 
 /*Header CSS Start */
@@ -84,7 +84,7 @@ h2.section-heading{
   margin: 0 auto;
   z-index: 9999;
   background-color: transparent;
-  backdrop-filter: blur(50px);
+  backdrop-filter: blur(15px);
 }
 
 .main-navbar ul {
@@ -99,7 +99,7 @@ h2.section-heading{
   align-items: center;
   justify-content: space-between;
   width: 100%;
-  padding: 15px 0;
+  padding: 10px 0;
 }
 
 .main-navbar ul li a {
@@ -124,11 +124,8 @@ h2.section-heading{
   color: #87d444;
   border-bottom: 1px solid #87d444;
 }
-
-
-
 .main-navbar ul li a:hover {
-  color: #5b8e2d;
+  color: #87d444;
 }
 
 .close-icon {
@@ -386,10 +383,11 @@ h2.section-heading{
 /* Home Page Featured Hotels CSS End*/
 
 /* Home Page Blogs Section   CSS Start*/
-.blogs-wrapper h2{
+.blogs-wrapper h2 {
   max-width: 800px;
   margin: auto;
 }
+
 .blog-cards {
   margin-bottom: 30px;
   border-radius: 5px;
@@ -407,12 +405,13 @@ h2.section-heading{
 .blog-cards-content {
   height: 100%;
   width: 100%;
-  padding:10px 0 20px 0;
+  padding: 10px 0 20px 0;
   overflow: hidden;
   border: 1px solid #5b8e2d;
   border-radius: 0 0 5px 5px;
 }
-.blog-cards-content h3{
+
+.blog-cards-content h3 {
   margin-bottom: 15px;
 }
 
@@ -422,8 +421,9 @@ h2.section-heading{
 .accordion_container {
   width: 100%;
 }
+
 .accordion_head {
-  background-color:#5b8e2d;
+  background-color: #5b8e2d;
   color: #fff;
   cursor: pointer;
   margin: 0 0 10px 0;
@@ -449,5 +449,135 @@ h2.section-heading{
 
 .plusminus {
   font-size: 30px;
-    }
+}
+
 /* Home Page FAQ Section CSS End */
+
+
+/* Footer CSS Start */
+.footer {
+  background-image: url("../images/footer-bg.jpg");
+  background-color: rgba(0 0 0/70%);
+  background-position: center;
+  background-blend-mode: multiply;
+  padding: 40px 0;
+}
+
+.footer-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-wrap: wrap;
+  padding-bottom: 30px;
+  overflow: hidden;
+}
+
+.logo-bottom img {
+  width: 100%;
+  max-width: 230px;
+}
+
+.footer-r1 {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-r2 {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+}
+
+.logo-bottom {
+  text-align: center;
+}
+
+.footer-items h3 {
+  font-size: 25px;
+  margin-bottom: 12px;
+  color: #fff;
+
+}
+
+.footer-items .social-icons {
+  width: 100%;
+  margin: 0px auto;
+}
+
+
+.footer-items ul li a {
+  padding: 7px 0;
+  color: #fff;
+}
+
+.footer .footer-items ul li a {
+  border-bottom: 1px solid transparent;
+  transition: 0.6s all ease;
+}
+
+.footer .footer-items ul li a.active {
+  border-color: #87d444;
+  color: #87d444;
+}
+
+.footer .footer-items ul li a:hover {
+  border-bottom: 1px solid #87d444;
+  transform: translateX(5px);
+  color: #87d444;
+}
+
+.footer-social-icons {
+  margin-top: 5px;
+}
+
+.copyright {
+  padding: 15px 0;
+  text-align: center;
+  margin: auto 0;
+  border: 1px solid #87d444;
+  max-width: 450px;
+  margin: 0 auto;
+}
+
+.copyright p {
+  color: #fff;
+  text-align: center;
+  font-size: 15px;
+}
+
+/* Footer CSS End */
+
+
+/* Social Icons CSS Start */
+.social-icons {
+  text-align: center;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-icons i {
+  width: 35px;
+  height: 35px;
+  border-radius: 50%;
+  font-size: 17px;
+  background-color: #fffcfc;
+  line-height: normal;
+  margin: 0 1px;
+  transition: 0.3s all ease-in-out;
+  display: inline-flex !important;
+  align-items: center;
+  justify-content: center;
+  vertical-align: middle;
+}
+
+.social-icons i:hover {
+  color: #fff;
+  background-color: #5b8e2d;
+  transform: translateY(2px);
+}
+
+/* Social Icons CSS End */

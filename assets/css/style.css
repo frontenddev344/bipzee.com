@@ -84,7 +84,7 @@ h2.section-heading {
   margin: 0 auto;
   z-index: 9999;
   background-color: transparent;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(50px);
 }
 
 .main-navbar ul {
@@ -107,39 +107,33 @@ h2.section-heading {
   padding: 5px;
   display: inline-block;
   color: #fff;
-  transition: 0.3s all ease-in;
+  transition: 0.5s all ease-in;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
   text-transform: capitalize;
   line-height: normal;
-  font-size: 17px;
+  font-weight: 500;
+  border-bottom: 1px solid transparent;
 }
 
 .desktop-hidden-menu {
   display: none;
 }
 
-.main-navbar ul li a.active {
-  color: #87d444;
-  border-bottom: 1px solid #87d444;
+.main-navbar ul li a.active,.main-navbar ul li a:hover {
+  border-bottom: 1px solid #fff;
 }
-.main-navbar ul li a:hover {
-  color: #87d444;
-}
-
 .close-icon {
   display: none;
 }
 
 .fixed-header {
-  background-color: #5b8e2d;
-  background-color: #ed2d4a;
+  background-color: #ec4227;
 }
 
 .site-header.fixed-header .main-navbar ul li a {
   color: #fff;
-  border-color: #fff;
 }
 
 
@@ -313,7 +307,7 @@ h2.section-heading {
 
 .home-page-signup-submit-button {
   display: inline-block;
-  background: #5b8e2d;
+  background-color: #ec4227;
   color: #fff;
   padding: 10px 25px;
   font-size: 16px;
@@ -326,8 +320,8 @@ h2.section-heading {
 }
 
 .home-page-signup-submit-button:hover {
-  background-color: #5b8e2d;
-  color: #fff;
+  background-color: #fff;
+  color: #ec4227;
 }
 
 /* Home Page Signup CSS End */
@@ -396,7 +390,7 @@ h2.section-heading {
 }
 
 .blog-btn {
-  background-color: #5b8e2d;
+  background-color: #ec4227;
   color: #fff;
   padding: 10px 20px;
   outline: none;
@@ -408,7 +402,7 @@ h2.section-heading {
   width: 100%;
   padding: 10px 0 20px 0;
   overflow: hidden;
-  border: 1px solid #5b8e2d;
+  border: 1px solid #ec4227;
   border-radius: 0 0 5px 5px;
 }
 
@@ -424,7 +418,7 @@ h2.section-heading {
 }
 
 .accordion_head {
-  background-color: #5b8e2d;
+  background-color: #ec4227;
   color: #fff;
   cursor: pointer;
   margin: 0 0 10px 0;

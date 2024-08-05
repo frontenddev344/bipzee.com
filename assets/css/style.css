@@ -1,52 +1,453 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Raleway:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
 /* Global CSS Start */
 
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Open Sans", sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Rubik", sans-serif;
+}
+
+p {
+  line-height: 1.5;
+
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  display: inline-block;
+  text-decoration: none;
+  color: inherit;
+  font-family: "Open Sans", sans-serif;
+}
+
+button,
+textarea {
+  font-family: "Open Sans", sans-serif;
+}
+
+img {
+  max-width: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 15px;
+}
+
+/* Global CSS End */
+
+/* Section Heading CSS Start */
+h2.section-heading{
+  font-size: 40px;
+}
+/* Section Heading CSS End*/
+
+/*Header CSS Start */
+.logo img {
+  text-align: center;
+  max-width: 250px;
+  vertical-align: middle;
+}
+
+.site-header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  margin: 0 auto;
+  z-index: 9999;
+  background-color: transparent;
+  backdrop-filter: blur(50px);
+}
+
+.main-navbar ul {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  align-items: center;
+}
+
+.desktop-menu {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 15px 0;
+}
+
+.main-navbar ul li a {
+  font-size: 1rem;
+  padding: 5px;
+  display: inline-block;
+  color: #fff;
+  transition: 0.6s all ease-in;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  text-transform: capitalize;
+  line-height: normal;
+  font-size: 17px;
+}
+
+.desktop-hidden-menu {
+  display: none;
+}
+
+.main-navbar ul li a.active {
+  color: #87d444;
+  border-bottom: 1px solid #87d444;
+}
+
+
+
+.main-navbar ul li a:hover {
+  color: #5b8e2d;
+}
+
+.close-icon {
+  display: none;
+}
+
+.fixed-header {
+  background-color: #5b8e2d;
+}
+
+.site-header.fixed-header .main-navbar ul li a {
+  color: #fff;
+  border-color: #fff;
+}
+
+
+.menu-icon {
+  display: none;
+  color: #000;
+  width: 30px;
+  text-align: right;
+  cursor: pointer;
+  margin: auto 0;
+}
+
+/* Header CSS End */
+
+
+/* Banner Section CSS Start */
+.banner {
+  position: relative;
+}
+
+.banner-image {
+  height: 630px;
+  width: 100%;
+}
+
+.banner-image img {
+  height: 100%;
+  object-fit: cover;
+  width: 100%;
+}
+
+.banner-text {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #000000b3;
+}
+
+.banner-text h1 {
+  font-size: 60px;
+  color: #fff;
+  display: block;
+  font-weight: 700;
+}
+
+.banner-text h2 {
+  font-size: 35px;
+  max-width: 800px;
+  margin: 10px auto;
+  color: #fff;
+  text-align: center;
+  font-weight: 600;
+}
+
+.banner-text-group {
+  animation: gobig 2s ease-in-out forwards;
+  opacity: 0;
+  transform: scale(0);
+  text-align: center;
+}
+
+@keyframes gobig {
+  to {
+    opacity: 1;
+    transform: scale(1);
   }
-  
-  body {
-    margin: 0;
-    padding: 0;
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  h1,
-  h2,
-  h3,
-  h4,
-  h5,
-  h6 {
-    font-family: "Montserrat", sans-serif;
-  }
-  
-  p {
-    margin-bottom: 0;
-  }
-  
-  ul {
-    list-style-type: none;
+}
+
+/* Banner Section  CSS End */
+
+/* Home Cards CSS Start */
+.home-page-cards {
+  position: relative;
+  height: 320px;
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.home-page-cards-image {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.home-page-cards-image a {
+  width: 100%;
+  height: 100%;
+}
+
+.home-page-cards-image img {
+  width: 100%;
+  height: 100%;
+  cursor: pointer;
+  object-fit: cover;
+  transition: 0.7s all ease-in-out;
+}
+
+.home-page-cards:hover .home-page-cards-image img {
+  transform: scale(1.2);
+}
+
+.home-page-cards-content {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  background: rgba(0 0 0/65%);
+  background-blend-mode: multiply;
+}
+
+.home-page-cards-content a {
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+  color: #fff;
+  text-decoration: none;
+}
+
+.home-page-cards-content a h3 {
+  font-size: 25px;
+  max-width: 150px;
+  margin: 0 auto;
+}
+
+/* Home Cards CSS End*/
+
+/* Home Page Signup CSS Start */
+.home-page-signup-section {
+  padding: 40px 0;
+  background-color: #DFE0DF;
+  background: linear-gradient(to top, #DFE0DF, #bfc1bf);
+}
+
+.home-page-signup-wrapper {
+  text-align: center;
+
+}
+
+.home-page-signup-wrapper h3 {
+  text-align: center;
+  font-size: 30px;
+}
+
+.home-page-signup-input-wrapper {
+  padding-top: 20px;
+  margin: 0 auto;
+}
+
+.home-page-signup-input {
+  width: 40%;
+  display: inline-block;
+  font-size: 16px;
+  padding: 10px 15px;
+  outline: none;
+  border: none;
+  border-radius: 5px;
+  line-height: normal;
+}
+
+.home-page-signup-submit-button {
+  display: inline-block;
+  background: #5b8e2d;
+  color: #fff;
+  padding: 10px 25px;
+  font-size: 16px;
+  outline: none;
+  border: none;
+  margin-left: 5px;
+  cursor: pointer;
+  border-radius: 5px;
+  line-height: normal;
+}
+
+.home-page-signup-submit-button:hover {
+  background-color: #5b8e2d;
+  color: #fff;
+}
+
+/* Home Page Signup CSS End */
+
+
+/* Home Page Featured Hotels CSS Start */
+
+.home-featured-card {
+  border-radius: 5px;
+  overflow: hidden;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  position: relative;
+  height: 400px;
+}
+
+.home-featured-card-image {
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+}
+
+.home-featured-card-image a {
+  height: 100%;
+  width: 100%;
+}
+
+.home-featured-card-image img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  transition: 0.5s all ease-in-out;
+}
+
+.home-featured-card:hover .home-featured-card-image img {
+  transform: scale(1.2);
+}
+
+.home-featured-card-content a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0 0 0/65%);
+  background-blend-mode: multiply;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #fff;
+  font-size: 30px;
+}
+
+/* Home Page Featured Hotels CSS End*/
+
+/* Home Page Blogs Section   CSS Start*/
+.blogs-wrapper h2{
+  max-width: 800px;
+  margin: auto;
+}
+.blog-cards {
+  margin-bottom: 30px;
+  border-radius: 5px;
+  overflow: hidden;
+}
+
+.blog-btn {
+  background-color: #5b8e2d;
+  color: #fff;
+  padding: 10px 20px;
+  outline: none;
+  border: none;
+}
+
+.blog-cards-content {
+  height: 100%;
+  width: 100%;
+  padding:10px 0 20px 0;
+  overflow: hidden;
+  border: 1px solid #5b8e2d;
+  border-radius: 0 0 5px 5px;
+}
+.blog-cards-content h3{
+  margin-bottom: 15px;
+}
+
+/* Home Page Blogs Section   CSS End */
+
+/* Home Page FAQ Section CSS Start */
+.accordion_container {
+  width: 100%;
+}
+.accordion_head {
+  background-color:#5b8e2d;
+  color: #fff;
+  cursor: pointer;
+  margin: 0 0 10px 0;
+  padding: 15px 20px;
+  font-weight: bold;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 7px;
+}
+
+.accordion_body {
+  background: #fff;
+  display: none;
+}
+
+.accordion_body p {
+  padding: 20px 10px;
+  margin: 0px;
+  color: #545556;
+  font-weight: 600;
+}
+
+.plusminus {
+  font-size: 30px;
     }
-  
-  a {
-    display: inline-block;
-    text-decoration: none;
-    color: inherit;
-  }
-  
-  img {
-    max-width: 100%;
-    object-fit: cover;
-    width: 100%;
-  }
-  
-  .container {
-    width: 100%;
-    max-width: 1170px;
-    margin: 0 auto;
-    padding: 0 10px;
-  }
-  
-  /* Global CSS End */
+/* Home Page FAQ Section CSS End */

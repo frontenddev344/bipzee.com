@@ -11,6 +11,7 @@
 
 body {
   font-family: "Open Sans", sans-serif;
+
 }
 
 h1,
@@ -129,7 +130,7 @@ h2.section-heading {
 }
 
 .fixed-header {
-  background-color: #ec4227;
+  background-color: #5369ff;
 }
 
 .site-header.fixed-header .main-navbar ul li a {
@@ -307,7 +308,7 @@ h2.section-heading {
 
 .home-page-signup-submit-button {
   display: inline-block;
-  background-color: #ec4227;
+  background-color: #5369ff;
   color: #fff;
   padding: 10px 25px;
   font-size: 16px;
@@ -321,7 +322,7 @@ h2.section-heading {
 
 .home-page-signup-submit-button:hover {
   background-color: #fff;
-  color: #ec4227;
+  color: #5369ff;
 }
 
 /* Home Page Signup CSS End */
@@ -390,7 +391,7 @@ h2.section-heading {
 }
 
 .blog-btn {
-  background-color: #ec4227;
+  background-color: #5369ff;
   color: #fff;
   padding: 10px 20px;
   outline: none;
@@ -402,7 +403,7 @@ h2.section-heading {
   width: 100%;
   padding: 10px 0 20px 0;
   overflow: hidden;
-  border: 1px solid #ec4227;
+  border: 1px solid #5369ff;
   border-radius: 0 0 5px 5px;
 }
 
@@ -418,7 +419,7 @@ h2.section-heading {
 }
 
 .accordion_head {
-  background-color: #ec4227;
+  background-color:#5369ff ;
   color: #fff;
   cursor: pointer;
   margin: 0 0 10px 0;

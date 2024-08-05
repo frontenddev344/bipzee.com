@@ -97,9 +97,15 @@
 }
 
 @media screen and (max-width:480px) {
-    .footer-items {
+    /* .footer-items {
         width: 100%;
         text-align: center;
         margin-bottom: 40px;
+    } */
+    .footer .footer-items ul li a {
+        border-bottom: 1px solid transparent;
+        transition: 0.6s all ease;
+        text-align: center;
+        width: 100%;
     }
 }

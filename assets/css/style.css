@@ -107,7 +107,7 @@ h2.section-heading {
   padding: 5px;
   display: inline-block;
   color: #fff;
-  transition: 0.6s all ease-in;
+  transition: 0.3s all ease-in;
   text-align: center;
   cursor: pointer;
   text-decoration: none;
@@ -577,7 +577,7 @@ h2.section-heading {
 .social-icons i:hover {
   color: #fff;
   background-color: #5b8e2d;
-  transform: translateY(2px);
+  transform: translateY(-2px);
 }
 
 /* Social Icons CSS End */

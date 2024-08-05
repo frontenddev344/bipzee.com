@@ -322,7 +322,7 @@ h2.section-heading {
 
 .home-page-signup-submit-button:hover {
   background-color: #fff;
-  color: #5369ff;
+  color: #841010;
 }
 
 /* Home Page Signup CSS End */
@@ -516,14 +516,14 @@ h2.section-heading {
 }
 
 .footer .footer-items ul li a.active {
-  border-color: #5369ff;
-  color: #5369ff;
+  border-color: #841010;
+  color: #841010;
 }
 
 .footer .footer-items ul li a:hover {
-  border-bottom: 1px solid #5369ff;
+  border-bottom: 1px solid #841010;
   transform: translateX(5px);
-  color: #5369ff;
+  color: #841010;
 }
 
 .footer-social-icons {
@@ -534,7 +534,7 @@ h2.section-heading {
   padding: 15px 0;
   text-align: center;
   margin: auto 0;
-  border: 1px solid #5369ff;
+  border: 1px solid #841010;
   max-width: 450px;
   margin: 0 auto;
 }
@@ -573,7 +573,7 @@ h2.section-heading {
 
 .social-icons i:hover {
   color: #fff;
-  background-color: #5369ff;
+  background-color: #841010;
   transform: translateY(-2px);
 }
 

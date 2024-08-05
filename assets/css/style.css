@@ -454,7 +454,7 @@ h2.section-heading {
 /* Footer CSS Start */
 .footer {
   background-image: url("../images/footer-bg.jpg");
-  background-color: rgba(0 0 0/80%);
+  background-color: rgba(0 0 0/70%);
   background-position: center;
   background-blend-mode: multiply;
   padding: 40px 0;
@@ -516,14 +516,13 @@ h2.section-heading {
 }
 
 .footer .footer-items ul li a.active {
-  border-color: #841010;
-  color: #841010;
+  border-color: #fff;
+
 }
 
 .footer .footer-items ul li a:hover {
-  border-bottom: 1px solid #841010;
+  border-bottom: 1px solid #fff;
   transform: translateX(5px);
-  color: #841010;
 }
 
 .footer-social-icons {

@@ -11,8 +11,6 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  /* background-color: #90b2af; */
-
 }
 
 h1,
@@ -34,6 +32,10 @@ ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
+}
+ul li{
+  line-height: 1.5;
+  margin-bottom: 3px;
 }
 
 a {
@@ -131,6 +133,7 @@ h2.section-heading {
 
 .fixed-header {
   background-color: #90b2af;
+  background-color: #8fd6ad;
 }
 .site-header.fixed-header .main-navbar ul li a {
   color: #fff;
@@ -275,7 +278,8 @@ h2.section-heading {
 /* Home Page Signup CSS Start */
 .page-signup-section {
   padding: 40px 0;
-  background-image: linear-gradient(to top, #90b2af, #ddd);
+background-color: #90b2af;
+background-color: #8fd6ad;
 }
 
 .page-signup-wrapper {
@@ -300,7 +304,6 @@ h2.section-heading {
   padding: 10px 15px;
   outline: none;
   border: none;
-  border-radius: 5px;
   line-height: normal;
   background-color: #fff;
   color: #841010;
@@ -316,7 +319,6 @@ h2.section-heading {
   border: none;
   margin-left: 5px;
   cursor: pointer;
-  border-radius: 5px;
   line-height: normal;
 }
 
@@ -405,7 +407,8 @@ h2.section-heading {
   overflow: hidden;
   border: 1px solid #841010;
   border-radius: 0 0 5px 5px;
-  background-color:#fff;
+  background-color:#90b2af;
+  background-color: #8fd6ad;
 }
 
 .blog-cards-content h3 {
@@ -450,6 +453,15 @@ h2.section-heading {
 }
 .accordion-button:focus {
    box-shadow: none; 
+}
+.accordion-item:last-of-type {
+   border-radius: 0;
+}
+.accordion-item:first-of-type {
+  border-radius: 0;
+}
+.accordion-body {
+  background-color: #8fd6ad;
 }
 /* Home Page FAQ Section CSS End */
 
@@ -524,8 +536,9 @@ h2.section-heading {
 }
 
 .footer .footer-items ul li a:hover {
-  border-bottom: 1px solid #fff;
+  border-bottom: 1px solid #8fd6ad;
   transform: translateX(5px);
+  color: #8fd6ad;
 }
 
 .footer-social-icons {
@@ -564,6 +577,7 @@ h2.section-heading {
   border-radius: 50%;
   font-size: 17px;
   background-color: #fffcfc;
+  color: #841010;
   line-height: normal;
   margin: 0 1px;
   transition: 0.3s all ease-in-out;
@@ -608,7 +622,7 @@ h2.section-heading {
 } 
 
  .pages-banner-text {
-  background-color: rgba(0 0 0/60%);
+  background-color: rgba(0 0 0/75%);
 }
 
 @keyframes slidedown {
@@ -624,11 +638,11 @@ h2.section-heading {
 .subpage-exp-content {
   margin-top: 10px;
   display: none;
-  padding:0 0  20px 0;
+  padding:0 0  15px 0;
 }
 .btn-darkred-block {
-  background-color: #fff;
-  color:#841010 ;
+  background-color: #841010;
+  color:#fff;
   border: none;
   outline: none;
   padding: 10px 20px;
@@ -637,19 +651,19 @@ h2.section-heading {
   line-height: normal;
   display: inline-block;
   text-align: center;
-  border: 1px solid transparent;
-  font-weight: 600;
+  border: 1px solid #841010;
+  font-weight: 500;
 }
 
 .btn-darkred-block:hover {
   background: #fff;
-  color: #841010;
-  border-color: #841010;}
+  color: #841010;}
+
 
 
 .external-pages-link-btn {
-  color: #fff;
-  background-color: #841010;
+  color: #841010;
+  background-color: #fff;
   border: none;
   outline: none;
   padding: 10px 20px;
@@ -660,7 +674,7 @@ h2.section-heading {
   transition: 0.4s all ease-in-out;
   overflow: hidden;
   border: 1px solid transparent;
-  font-weight: 600;
+  font-weight: 500;
 }
 
 .external-pages-link-btn:hover {
@@ -669,12 +683,56 @@ h2.section-heading {
   border-color: #841010;
 
 }
-.text-left{
-  padding: 0 20px;
+.text-left {
+  display: flex;
+  gap: 10px;
 }
 /* Pages Cards CSS Start */
+.pages-cards {
+  margin-bottom: 30px;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px, rgba(0, 0, 0, 0.12) 0px -12px 20px, rgba(0, 0, 0, 0.12) 0px 4px 4px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+  border-radius: 10px;
+  overflow: hidden;
+  padding: 10px;
+  background-color: #d6e3e2;
+  background-color: #8fd6ad;
+  margin-bottom: 30px;
+}
+.pages-cards:last-child{
+  margin-bottom: 0;
+}
+.pages-cards-image{
+  height: 100%;
+  overflow: hidden;
+}
+.pages-cards-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  display: block;
+  border-radius: 10px;
+}
+.pages-cards-content{
+  padding: 0 20px;
+}
+
+.pages-cards-group {
+  display: inline-flex;
+  width: 100%;
+  justify-content: space-between;
+  max-width: 520px;
+  margin-right: auto;
+  align-items:flex-start
+}
+.pages-cards ul li {
+  list-style-type: disc;
+  margin-left: 17px;
+}
+.pages-cards ul{
+  margin-bottom: 10px;
+}
 
 
-/*Pages Cards CSS End */
+  /*Pages Cards CSS End */
 
 /* Pages CSS End */

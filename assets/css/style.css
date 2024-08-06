@@ -11,7 +11,8 @@
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-color: #90b2af;
+  /* background-color: #90b2af; */
+
 }
 
 h1,
@@ -38,12 +39,12 @@ ul {
 a {
   display: inline-block;
   text-decoration: none;
-  color: inherit;
   font-family: "Open Sans", sans-serif;
 }
 
 button,input {
   font-family: "Open Sans", sans-serif;
+  
 }
 
 img {
@@ -272,28 +273,27 @@ h2.section-heading {
 /* Home Cards CSS End*/
 
 /* Home Page Signup CSS Start */
-.home-page-signup-section {
+.page-signup-section {
   padding: 40px 0;
-  background-color: #DFE0DF;
-  background: linear-gradient(to top, #DFE0DF, #bfc1bf);
+  background-image: linear-gradient(to top, #90b2af, #ddd);
 }
 
-.home-page-signup-wrapper {
+.page-signup-wrapper {
   text-align: center;
 
 }
 
-.home-page-signup-wrapper h3 {
+.page-signup-wrapper h3 {
   text-align: center;
   font-size: 30px;
 }
 
-.home-page-signup-input-wrapper {
+.page-signup-input-wrapper {
   padding-top: 20px;
   margin: 0 auto;
 }
 
-.home-page-signup-input {
+.page-signup-input {
   width: 40%;
   display: inline-block;
   font-size: 16px;
@@ -306,7 +306,7 @@ h2.section-heading {
   color: #841010;
 }
 
-.home-page-signup-submit-button {
+.page-signup-submit-button {
   display: inline-block;
   background-color: #841010;
   color: #fff;
@@ -320,7 +320,7 @@ h2.section-heading {
   line-height: normal;
 }
 
-.home-page-signup-submit-button:hover {
+.page-signup-submit-button:hover {
   background-color: #fff;
   color: #841010;
 }
@@ -415,39 +415,42 @@ h2.section-heading {
 /* Home Page Blogs Section   CSS End */
 
 /* Home Page FAQ Section CSS Start */
-.accordion_container {
-  width: 100%;
-}
+.accordion-button::after {
+  flex-shrink: 0;
+  content: "\f067";
+  font-family: "FontAwesome";
+  background-image: none;
+  background-repeat: no-repeat;
 
-.accordion_head {
-  background-color:#841010 ;
+}
+.accordion-button:not(.collapsed)::after {
+  content: "\f068";
+  font-family: "FontAwesome";
+  background-image: none;
+  transform: rotate(0);
+  background-color: #841010;
+}
+.accordion {
+   --bs-accordion-btn-icon-transform: rotate(0);
+}
+.accordion-button:not(.collapsed) {
+    background-color: #841010;
+   box-shadow: none;
   color: #fff;
-  cursor: pointer;
-  margin: 0 0 10px 0;
-  padding: 15px 20px;
-  font-weight: bold;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  border-radius: 7px;
 }
-
-.accordion_body {
-  background: #fff;
-  display: none;
+.accordion-button {
+   background: #841010;
+  color: #fff;
 }
-
-.accordion_body p {
-  padding: 20px 10px;
-  margin: 0px;
-  color: #545556;
-  font-weight: 600;
+.accordion {
+   --bs-accordion-border-color:none;
+ }
+ .accordion-item {
+  margin-bottom: 12px;
 }
-
-.plusminus {
-  font-size: 30px;
+.accordion-button:focus {
+   box-shadow: none; 
 }
-
 /* Home Page FAQ Section CSS End */
 
 
@@ -577,3 +580,101 @@ h2.section-heading {
 }
 
 /* Social Icons CSS End */
+
+
+/* Pages CSS Start */
+.pages-banner-image {
+  height: 550px;
+}
+
+.pages-banner-text h1 {
+  font-size: 45px;
+  font-weight: 600;
+  color: #fff;
+}
+
+.pages-banner-text h2 {
+  font-size: 27px;
+  font-weight: 600;
+  color: #fff;
+}
+
+ .pages-banner-text-group {
+  animation: slidedown 1.5s ease-in-out forwards;
+  opacity: 0;
+  transform: translateY(-200%);
+  text-align: center;
+  overflow: hidden;
+} 
+
+ .pages-banner-text {
+  background-color: rgba(0 0 0/60%);
+}
+
+@keyframes slidedown {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+.heading-like{
+  font-weight: 700;
+  color: #841010;
+}
+.subpage-exp-content {
+  margin-top: 10px;
+  display: none;
+  padding:0 0  20px 0;
+}
+.btn-darkred-block {
+  background-color: #fff;
+  color:#841010 ;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  transition: 0.4s all ease-in-out;
+  cursor: pointer;
+  line-height: normal;
+  display: inline-block;
+  text-align: center;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.btn-darkred-block:hover {
+  background: #fff;
+  color: #841010;
+  border-color: #841010;}
+
+
+.external-pages-link-btn {
+  color: #fff;
+  background-color: #841010;
+  border: none;
+  outline: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  line-height: normal;
+  display: inline-block;
+  text-align: center;
+  transition: 0.4s all ease-in-out;
+  overflow: hidden;
+  border: 1px solid transparent;
+  font-weight: 600;
+}
+
+.external-pages-link-btn:hover {
+  background: #fff;
+  color: #841010;
+  border-color: #841010;
+
+}
+.text-left{
+  padding: 0 20px;
+}
+/* Pages Cards CSS Start */
+
+
+/*Pages Cards CSS End */
+
+/* Pages CSS End */

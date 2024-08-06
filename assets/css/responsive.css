@@ -18,7 +18,7 @@
         left: 0;
         height: 100vh;
         width: 100%;
-        background-color: #5369ff;
+        background-color: #841010;
         transform: translateX(100%);
         transition: all 0.7s ease;
         z-index: 50;
@@ -70,6 +70,7 @@
         border: 1px solid #fff;
         padding: 5px 10px;
         transition: 0.3s all ease;
+        font-size: 20px;
     }
 
     .close-icon:hover {

@@ -1,44 +1,34 @@
 // Toggle Menu Functionaliy Start
 
 $(document).ready(function () {
-    $(".menu-icon").click(function () {
-      $("body").addClass("menuToggle");
-    });
-    $(".close-icon").click(function () {
-      $("body").removeClass("menuToggle");
-    });
+  $(".menu-icon").click(function () {
+    $("body").addClass("menuToggle");
   });
-  
-  // Toggle Menu Functionaliy End
-
-  // Header Scroll JS Start
-  $(document).ready(function(){
-    $(window).scroll(function(){
-      var header = $("header");
-      header.toggleClass("fixed-header", $(window).scrollTop() > 0 );
-    });
+  $(".close-icon").click(function () {
+    $("body").removeClass("menuToggle");
   });
-    // Header Scroll JS End
+});
 
+// Toggle Menu Functionaliy End
 
-
-    // FAQ Accordion JS Start
-
-    $(document).ready(function () {
-      //toggle the component with class accordion_body
-      $(".accordion_head").click(function () {
-          if ($('.accordion_body').is(':visible')) {
-              $(".accordion_body").slideUp(300);
-              $(".plusminus").text('+');
-          }
-          if ($(this).next(".accordion_body").is(':visible')) {
-              $(this).next(".accordion_body").slideUp(300);
-              $(this).children(".plusminus").text('+');
-          } else {
-              $(this).next(".accordion_body").slideDown(300);
-              $(this).children(".plusminus").text('-');
-          }
-      });
+// Header Scroll JS Start
+$(document).ready(function () {
+  $(window).scroll(function () {
+    var header = $("header");
+    header.toggleClass("fixed-header", $(window).scrollTop() > 0);
   });
-  
-    // FAQ Accordion JS End
+});
+// Header Scroll JS End
+
+
+// Read More Functionality JS Start
+
+$('.subpage-readmore-btn').click(function (e) {
+  e.preventDefault();
+  // console.log('click');
+  $(this).parent().prev().slideToggle('slow');
+  // $('.subpage-exp-content').slideToggle('slow');
+  $(this).text($(this).text() == 'Read Less' ? 'Read More' : 'Read Less');
+});
+
+// Read More Functionality JS end

@@ -134,9 +134,13 @@ h2.section-heading {
 .fixed-header {
   background-color: #90b2af;
   background-color: #8fd6ad;
+  background-color: #005b5a;
 }
 .site-header.fixed-header .main-navbar ul li a {
   color: #fff;
+}
+.site-header.fixed-header .main-navbar ul li a.active ,.site-header.fixed-header .main-navbar ul li a:hover {
+  border-color: #fff;
 }
 
 
@@ -280,6 +284,7 @@ h2.section-heading {
   padding: 40px 0;
 background-color: #90b2af;
 background-color: #8fd6ad;
+background-color: #005b5a;
 }
 
 .page-signup-wrapper {
@@ -391,6 +396,12 @@ background-color: #8fd6ad;
   border-radius: 5px;
   overflow: hidden;
 }
+.blog-cards-image {
+  width: 100%;
+  height: 100%;
+  max-height: 300px;
+  overflow: hidden;
+}
 
 .blog-btn {
   background-color: #841010;
@@ -405,10 +416,10 @@ background-color: #8fd6ad;
   width: 100%;
   padding: 10px 0 20px 0;
   overflow: hidden;
-  border: 1px solid #841010;
   border-radius: 0 0 5px 5px;
   background-color:#90b2af;
   background-color: #8fd6ad;
+  background-color: #005b5a;
 }
 
 .blog-cards-content h3 {
@@ -462,6 +473,7 @@ background-color: #8fd6ad;
 }
 .accordion-body {
   background-color: #8fd6ad;
+  background-color: #005b5a;
 }
 /* Home Page FAQ Section CSS End */
 
@@ -549,7 +561,7 @@ background-color: #8fd6ad;
   padding: 15px 0;
   text-align: center;
   margin: auto 0;
-  border: 1px solid #841010;
+  border: 1px solid #8fd6ad;
   max-width: 450px;
   margin: 0 auto;
 }
@@ -639,6 +651,8 @@ background-color: #8fd6ad;
   margin-top: 10px;
   display: none;
   padding:0 0  15px 0;
+  font-weight: 500;
+  color: #000;
 }
 .btn-darkred-block {
   background-color: #841010;
@@ -673,21 +687,20 @@ background-color: #8fd6ad;
   text-align: center;
   transition: 0.4s all ease-in-out;
   overflow: hidden;
-  border: 1px solid transparent;
+  border: 1px solid #841010;
   font-weight: 500;
 }
 
 .external-pages-link-btn:hover {
-  background: #fff;
-  color: #841010;
-  border-color: #841010;
-
+  background: #841010;
+  color: #fff;
 }
 .text-left {
   display: flex;
   gap: 10px;
 }
 /* Pages Cards CSS Start */
+
 .pages-cards {
   margin-bottom: 30px;
   box-shadow: rgba(0, 0, 0, 0.25) 0px 1px 4px, rgba(0, 0, 0, 0.12) 0px -12px 20px, rgba(0, 0, 0, 0.12) 0px 4px 4px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
@@ -696,6 +709,7 @@ background-color: #8fd6ad;
   padding: 10px;
   background-color: #d6e3e2;
   background-color: #8fd6ad;
+  background-color: #005b5a;
   margin-bottom: 30px;
 }
 .pages-cards:last-child{
@@ -720,13 +734,22 @@ background-color: #8fd6ad;
   display: inline-flex;
   width: 100%;
   justify-content: space-between;
-  max-width: 520px;
+  max-width: 580px;
   margin-right: auto;
-  align-items:flex-start
+  align-items:flex-start;
+  }
+  .pages-cards-group p{
+    font-weight: 500;
+    color: #fff;
+  }
+  .pages-cards-group h3 {
+    color: #fff;
 }
 .pages-cards ul li {
   list-style-type: disc;
   margin-left: 17px;
+  font-weight: 500;
+  color: #fff;
 }
 .pages-cards ul{
   margin-bottom: 10px;

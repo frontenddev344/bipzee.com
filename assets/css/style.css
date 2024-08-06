@@ -759,3 +759,24 @@ background-color: #005b5a;
   /*Pages Cards CSS End */
 
 /* Pages CSS End */
+.short-cards{
+  margin-bottom: 30px;
+  position: relative;
+}
+ .short-cards-text a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0 0 0/60%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+} 
+.blog-pages-content-wrapper>p {
+  max-width: 900px;
+  margin: 0 auto;
+}

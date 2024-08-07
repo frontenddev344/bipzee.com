@@ -96,10 +96,14 @@
     .home-page-cards {
         height: 280px;
     }
+    
 
     .page-signup-input {
         width: 50%;
     }
+    .blog-cards-image {
+             max-height: 240px;
+         }
     .accordion-button,  .accordion-body {
         font-size: 15px;
 }

@@ -96,7 +96,9 @@
     .home-page-cards {
         height: 280px;
     }
-    
+    .home-featured-card:last-child{
+        margin-bottom: 0;
+    }
 
     .page-signup-input {
         width: 50%;

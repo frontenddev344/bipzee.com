@@ -77,6 +77,7 @@ h2.section-heading {
 /*Header CSS Start */
 .logo img {
   text-align: center;
+  width: 100%;
   max-width: 250px;
   vertical-align: middle;
 }
@@ -309,6 +310,7 @@ h2.section-heading {
   line-height: normal;
   background-color: #fff;
   color: #841010;
+  border: 1px solid transparent;
 }
 
 .page-signup-submit-button {
@@ -318,17 +320,18 @@ h2.section-heading {
   padding: 10px 25px;
   font-size: 16px;
   outline: none;
-  border: none;
+  border: 1px solid transparent;
   margin-left: 5px;
   cursor: pointer;
   line-height: normal;
-  transition: 0.4s all ease-in-out;
+  transition: 0.5s all ease-in-out;
 }
 
 .page-signup-submit-button:hover {
-  background-color: #841010;
-  transform: scaleX(1.05);
-}
+  background: #fff;
+  color: #841010;
+  border-color: #841010;
+ }
 
 /* Home Page Signup CSS End */
 
@@ -340,7 +343,7 @@ h2.section-heading {
   overflow: hidden;
   box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
   position: relative;
-  height: 400px;
+  height: 350px;
 }
 
 .home-featured-card-image {
@@ -352,6 +355,12 @@ h2.section-heading {
 .home-featured-card-image a {
   height: 100%;
   width: 100%;
+}
+.home-featured-card-content h3 {
+  font-size: 22px;
+  max-width: 190px;
+  margin: 0 auto;
+  text-align: center;
 }
 
 .home-featured-card-image img {

@@ -145,9 +145,7 @@
         font-size: 15px;
     }
 
-    .home-featured-card {
-        height: 300px;
-    }
+    
 
     .home-page-cards {
         height: 250px;
@@ -157,9 +155,7 @@
         font-size: 16px;
     }
 
-    .home-featured-card {
-        margin-bottom: 30px;
-    }
+  
 
     .page-signup-section {
         padding: 35px 0;
@@ -199,6 +195,13 @@
 
     .home-featured-card {
         height: 250px;
+    }
+    .home-featured-card {
+        height: 300px;
+        margin-bottom: 30px;
+    }
+    .home-featured-card:nth-child(2){
+        margin-bottom: 0;
     }
 
     .home-page-intro p {

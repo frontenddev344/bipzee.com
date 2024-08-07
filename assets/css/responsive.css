@@ -84,6 +84,9 @@
         font-size: 32px;
         max-width: 400px;
     }
+    .home-page-intro p {
+        font-weight: 500;}
+  
     .home-page-cards {
         height: 280px;
     }
@@ -103,12 +106,29 @@
     .banner-text h1 {
         font-size: 50px;
     }
-        .banner-text h2 {
+
+    .banner-text h2 {
         font-size: 30px;
         max-width: 400px;
     }
+    .home-page-intro p {
+          font-size: 15px;
+    }
+
     .home-page-cards {
         height: 250px;
+    }
+
+    .page-signup-wrapper h3 {
+        font-size: 18px;
+    }
+
+    .home-featured-card {
+        margin-bottom: 30px;
+    }
+
+    .page-signup-section {
+        padding: 35px 0;
     }
 
 
@@ -125,8 +145,26 @@
         font-size: 25px;
         max-width: 400px;
     }
+    .home-page-intro p {
+             font-size: 14px;
+    }
+    .home-page-cards {
+        height: 220px;
+    }
 
-   
+    .page-signup-input {
+        width: 90%;
+        font-size: 14px;
+        padding: 7px 15px;
+    }
+
+    .page-signup-submit-button {
+        padding: 6px 20px;
+        font-size: 13px;
+        margin-top: 10px;
+    }
+
+
 
     .footer .footer-items ul li a {
         font-size: 15px;
@@ -158,7 +196,9 @@
     .banner-text h2 {
         font-size: 22px;
     }
-
+    .home-page-intro p {
+            font-size: 13px;
+    }
 
 
 

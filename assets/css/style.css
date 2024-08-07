@@ -26,6 +26,7 @@ p {
   line-height: 1.5;
   padding: 0;
   margin: 0;
+  font-weight: 600;
 }
 
 ul {
@@ -285,6 +286,7 @@ h2.section-heading {
 background-color: #90b2af;
 background-color: #8fd6ad;
 background-color: #005b5a;
+background-color: #ffd700;
 }
 
 .page-signup-wrapper {
@@ -410,6 +412,17 @@ background-color: #005b5a;
   outline: none;
   border: none;
 }
+.blog-card-image {
+  width: 100%;
+  height: 100%;
+  max-height: 500px;
+  overflow: hidden;
+}
+.blog-card-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
 
 .blog-cards-content {
   height: 100%;
@@ -420,11 +433,24 @@ background-color: #005b5a;
   background-color:#90b2af;
   background-color: #8fd6ad;
   background-color: #005b5a;
+  background-color: #ffd700;
 }
 
 .blog-cards-content h3 {
   margin-bottom: 15px;
+  font-size: 22px;
 }
+.short-cards-image {
+  width: 100%;
+  height: 130px;
+  overflow: hidden;
+}
+.short-cards-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+
 
 /* Home Page Blogs Section   CSS End */
 
@@ -474,6 +500,7 @@ background-color: #005b5a;
 .accordion-body {
   background-color: #8fd6ad;
   background-color: #005b5a;
+  background-color: #ffd700;
 }
 /* Home Page FAQ Section CSS End */
 
@@ -710,6 +737,7 @@ background-color: #005b5a;
   background-color: #d6e3e2;
   background-color: #8fd6ad;
   background-color: #005b5a;
+  background-color: #ffd700;
   margin-bottom: 30px;
 }
 .pages-cards:last-child{
@@ -739,17 +767,14 @@ background-color: #005b5a;
   align-items:flex-start;
   }
   .pages-cards-group p{
-    font-weight: 500;
-    color: #fff;
-  }
-  .pages-cards-group h3 {
-    color: #fff;
-}
+    font-weight: 600;
+    }
+
 .pages-cards ul li {
   list-style-type: disc;
   margin-left: 17px;
-  font-weight: 500;
-  color: #fff;
+  font-weight: 600;
+color: #000;
 }
 .pages-cards ul{
   margin-bottom: 10px;
@@ -775,8 +800,23 @@ background-color: #005b5a;
   align-items: center;
   justify-content: center;
   color: #fff;
+}
+.short-cards-text a h5 {
+  font-size: 16px;
+  max-width: 150px;
+  margin: 0 auto;
+  text-align: center;
 } 
 .blog-pages-content-wrapper>p {
   max-width: 900px;
   margin: 0 auto;
+  font-weight: 600;
+}
+.after-cards-para-wrapper p{
+  font-weight: 600;
+  border: 1px solid #841010;
+  padding: 20px;
+}
+.blog-card-group p{
+  font-weight: 500;
 }

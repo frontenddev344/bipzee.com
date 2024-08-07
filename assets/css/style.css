@@ -720,6 +720,9 @@ color: #ffd700;
 .pages-banner-image {
   height: 550px;
 }
+ .blog-banner-image{
+  height: 450px;
+}
 
 .pages-banner-text h1 {
   font-size: 45px;

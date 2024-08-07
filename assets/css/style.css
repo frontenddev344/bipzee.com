@@ -552,6 +552,14 @@ h2.section-heading {
   box-shadow: none;
   color: #fff;
 }
+.accordion-item:first-of-type>.accordion-header .accordion-button {
+   border-top-left-radius: 0;
+   border-top-right-radius: 0; 
+}
+.accordion-item:last-of-type>.accordion-header .accordion-button.collapsed {
+  border-bottom-right-radius: 0;
+  border-bottom-left-radius:0;
+}
 
 .accordion-button {
   background:linear-gradient(to top , #841010 , #cb4545);

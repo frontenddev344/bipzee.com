@@ -400,6 +400,16 @@ h2.section-heading {
   height: 100%;
   max-height: 300px;
   overflow: hidden;
+
+}
+.blog-cards-image img{
+  height: 100%;
+  width:100%;
+  object-fit: cover;
+  transition: all 0.6s ease-in-out;
+}
+.blog-cards-image img:hover{
+  transform: scale(1.1);
 }
 
 .blog-btn {
@@ -447,6 +457,69 @@ h2.section-heading {
   height: 100%;
   width: 100%;
   object-fit: cover;
+}
+.short-cards {
+  margin-bottom: 30px;
+  position: relative;
+}
+.blog-pages-content-wrapper h2 {
+  font-size: 27px;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.short-cards-text a {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgba(0 0 0/65%);
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #fff;
+}
+
+.short-cards-text a h5 {
+  font-size: 17px;
+  max-width: 150px;
+  margin: 0 auto;
+  text-align: center;
+  font-weight: 400;
+}
+
+.blog-pages-content-wrapper>p {
+  max-width: 900px;
+  margin: 0 auto;
+  font-weight: 600;
+}
+
+.after-cards-para-wrapper p {
+  font-weight: 600;
+  border: 1px double #841010;
+  padding: 20px;
+}
+
+.blog-card-group p {
+  font-weight: 600;
+}
+.home-blogs-wrapper {
+  border: 6px double #ffd700;
+  padding: 15px;
+}
+.short-cards-image{
+  overflow: hidden;
+}
+.short-cards-image img{
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+  transition: 0.6s all ease-in-out;
+}
+.short-cards:hover .short-cards-image img{
+  transform: scale(1.2);
 }
 
 
@@ -759,6 +832,8 @@ color: #ffd700;
 .pages-cards-image {
   height: 100%;
   overflow: hidden;
+  width: 100%;
+  border-radius: 10px;
 }
 
 .pages-cards-image img {
@@ -766,9 +841,12 @@ color: #ffd700;
   width: 100%;
   object-fit: cover;
   display: block;
-  border-radius: 10px;
-}
 
+  transition: 0.6s all ease-in-out;
+}
+.pages-cards-image img:hover{
+  transform: scale(1.1);
+}
 .pages-cards-content {
   padding: 0 20px;
 }
@@ -806,57 +884,7 @@ color: #ffd700;
 /* Pages CSS End */
 
 /* Blog Pages CSS Start */
-.short-cards {
-  margin-bottom: 30px;
-  position: relative;
-}
-.blog-pages-content-wrapper h2 {
-  font-size: 27px;
-  max-width: 700px;
-  margin: 0 auto;
-}
 
-.short-cards-text a {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  background-color: rgba(0 0 0/65%);
-  height: 100%;
-  width: 100%;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  color: #fff;
-}
-
-.short-cards-text a h5 {
-  font-size: 17px;
-  max-width: 150px;
-  margin: 0 auto;
-  text-align: center;
-  font-weight: 400;
-}
-
-.blog-pages-content-wrapper>p {
-  max-width: 900px;
-  margin: 0 auto;
-  font-weight: 600;
-}
-
-.after-cards-para-wrapper p {
-  font-weight: 600;
-  border: 1px double #841010;
-  padding: 20px;
-}
-
-.blog-card-group p {
-  font-weight: 600;
-}
-.home-blogs-wrapper {
-  border: 7px double #ffd700;
-  padding: 15px;
-}
 /* Blog Pages CSS End */
 
 /* Privacy Policy Page CSS Start */

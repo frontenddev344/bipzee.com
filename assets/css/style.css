@@ -93,6 +93,7 @@ h2.section-heading {
   z-index: 9999;
   background-color: transparent;
   backdrop-filter: blur(10px);
+  border-bottom:1px solid #fff;
 }
 
 .main-navbar ul {
@@ -141,6 +142,7 @@ h2.section-heading {
 
 .fixed-header {
   background:linear-gradient(to top, #d42020 , #b74b4b);
+  border-bottom:1px solid transparent;
 }
 .menu-icon {
   display: none;

@@ -222,7 +222,9 @@
     .home-page-intro p {
         font-size: 15px;
     }
-
+    .blog-cards-content {
+        min-height: 140px;
+    }
 
 
     .home-page-cards {
@@ -295,7 +297,7 @@
     }
 
     .pages-cards-image {
-        height: 300px;
+        height: 250px;
     }
 
     .pages-cards-content {
@@ -494,7 +496,7 @@
     }
 
     .pages-cards-image {
-        height: 270px;
+        height: 220px;
     }
 
     .page-signup-wrapper h3 {

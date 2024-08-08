@@ -607,6 +607,9 @@ h2.section-heading {
   font-weight: 500;
   font-size: 17px;
 }
+[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
+  line-height: 1.5;
+}
 
 /* Home Page FAQ Section CSS End */
 
@@ -955,8 +958,6 @@ color: #ffd700;
 .terms-conditions-group:last-child {
   margin-bottom: 0;
 }
-
-
 
 .terms-conditions-group p {
   margin-bottom: 10px;

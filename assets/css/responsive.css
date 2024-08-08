@@ -170,22 +170,13 @@
     /* Pages CSS End */
 
     /* Cookies CSS Start */
-    #cookie-bar button {
-        float: left;
-        padding: 7px 15px;
+    .info p {
         font-size: 14px;
-        font-weight: 600;
     }
 
-    #cookie-bar p {
+    .button {
+        width: calc(60% / 2 - 10px);
         font-size: 14px;
-        line-height: 20px;
-        width: 100%;
-    }
-
-    #contentcookie {
-        padding: 20px 10px;
-        width: 100%;
     }
 
     /* Cookies CSS End */
@@ -196,6 +187,14 @@
 @media screen and (max-width:767px) {
     .logo img {
         max-width: 200px;
+    }
+
+    .desktop-menu {
+        padding: 5px 0;
+    }
+
+    .menu-icon {
+        font-size: 19px;
     }
 
     h2.section-heading {
@@ -324,7 +323,6 @@
 
 
 
-
     .privacy-policy-group p,
     .terms-conditions-group p {
         font-size: 15px;
@@ -343,20 +341,27 @@
     .blog-card-image {
         max-height: 230px;
     }
+
     .short-cards-image {
-            height: 130px;
+        height: 130px;
     }
 
     /* Blog Pages End */
     /* Pages CSS End */
 
     /* Cookies CSS Start */
-    #cookie-bar button {
+    .wrapper {
+        padding: 20px 10px;
+    }
+
+    .info p {
         font-size: 13px;
     }
 
-    #cookie-bar p {
+    .button {
+        width: calc(70% / 2 - 10px);
         font-size: 13px;
+        padding: 6px;
     }
 
     /* Cookies CSS End */
@@ -533,18 +538,25 @@
     .blog-pages-content-wrapper>p {
         font-size: 14px;
     }
+
     .blog-card-image {
         max-height: 200px;
     }
+
     .short-cards-image {
-            height:110px;
+        height: 110px;
     }
 
     /* Blog Pages End */
     /* Pages CSS End */
 
     /* Cookies CSS Start */
-    #cookie-bar p {
+    .info p {
+        font-size: 13px;
+    }
+
+    .button {
+        width: calc(50% / 2 - 10px);
         font-size: 13px;
     }
 
@@ -694,6 +706,7 @@
     .blog-pages-content-wrapper>p {
         font-size: 13px;
     }
+
     .blog-card-image {
         max-height: 180px;
     }
@@ -701,4 +714,17 @@
     /* Blog Pages End */
 
     /* Pages CSS End */
+
+    /* Cookies CSS Start */
+    .info p {
+        font-size: 12px;
+    }
+
+    .button {
+        width: calc(80% / 2 - 10px);
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
+
 }

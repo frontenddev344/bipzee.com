@@ -1,4 +1,7 @@
 @media screen and (max-width:991px) {
+    .logo img {
+       max-width: 100px;
+       }
     .menu-icon {
         display: none;
         color: #fff;
@@ -176,7 +179,7 @@
     }
 
     .button {
-        width: calc(60% / 2 - 10px);
+        width: calc(55% / 2 - 10px);
         font-size: 14px;
     }
 
@@ -187,7 +190,7 @@
 
 @media screen and (max-width:767px) {
     .logo img {
-        max-width: 200px;
+        max-width: 90px;
     }
 
     .main-navbar ul li a {
@@ -366,8 +369,7 @@
     }
 
     .button {
-        width: calc(70% / 2 - 10px);
-        font-size: 13px;
+               font-size: 13px;
         padding: 6px;
     }
 
@@ -585,7 +587,7 @@
 
 @media screen and (max-width:480px) {
     .logo img {
-        max-width: 140px;
+        max-width: 80px;
     }
 
     .banner-image {

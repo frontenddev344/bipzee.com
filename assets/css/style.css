@@ -8,10 +8,12 @@
   margin: 0;
   box-sizing: border-box;
 }
+html {
+  scroll-behavior:auto;
+}
 
 body {
   font-family: "Open Sans", sans-serif;
-  user-select: none;
 }
 
 h1,

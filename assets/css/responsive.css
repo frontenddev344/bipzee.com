@@ -103,7 +103,7 @@
     }
 
     .blog-cards-image {
-        max-height: 240px;
+    height: 240px;
     }
 
     .accordion-button,
@@ -549,8 +549,8 @@
         font-size: 14px;
     }
 
-    .blog-card-image {
-        max-height: 200px;
+    .blog-cards-image {
+        max-height: 210px;
     }
 
     .short-cards-image {
@@ -696,7 +696,7 @@
     }
 
     .blog-cards-image {
-        max-height: 180px;
+        height: 180px;
     }
 
     .blog-card-group p {

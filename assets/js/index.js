@@ -62,3 +62,6 @@ window.addEventListener('load', executeCodes);
 
 // //Cookies JS Start
 
+window.onload = function() {
+  window.scrollTo(0, 0);
+};

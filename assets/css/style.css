@@ -257,7 +257,7 @@ h2.section-heading {
   position: absolute;
   top: 0;
   bottom: 0;
-  background: rgba(0 0 0/65%);
+  background: rgba(0 0 0/60%);
   background-blend-mode: multiply;
 }
 
@@ -384,7 +384,7 @@ h2.section-heading {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: rgba(0 0 0/65%);
+  background-color: rgba(0 0 0/60%);
   background-blend-mode: multiply;
   height: 100%;
   width: 100%;
@@ -773,7 +773,7 @@ color: #ffd700;
 }
 
 .pages-banner-text {
-  background-color: rgba(0 0 0/65%);
+  background-color: rgba(0 0 0/60%);
 }
 .blog-banner-text{
   background-color: rgba(0 0 0/55%); 
@@ -785,12 +785,10 @@ color: #ffd700;
     transform: translateY(0);
   }
 }
-
 .heading-like {
   font-weight: 700;
   color: #841010;
 }
-
 .subpage-exp-content {
   margin-top: 10px;
   display: none;
@@ -818,8 +816,6 @@ color: #ffd700;
   background: #fff;
   color: #841010;
 }
-
-
 
 .external-pages-link-btn {
   color: #841010;

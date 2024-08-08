@@ -893,6 +893,10 @@ color: #ffd700;
   max-width: 580px;
   margin-right: auto;
   align-items: flex-start;
+  flex-direction: column;
+}
+.pages-cards-group h3{
+  margin-bottom: 5px;
 }
 
 .pages-cards-group h3 {
@@ -911,7 +915,7 @@ color: #ffd700;
 }
 
 .pages-cards ul {
-  margin-bottom: 10px;
+  margin: 15px 0;
 }
 
 

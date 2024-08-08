@@ -346,7 +346,7 @@
     }
 
     .blog-card-image {
-        max-height: 230px;
+        height: 230px;
     }
 
     .short-cards-image {
@@ -562,6 +562,9 @@
     .accordion-button {
         padding: 10px !important;
     }
+    .blog-card-image {
+        height: 180px;
+    }
 
     /* Blog Pages End */
     /* Pages CSS End */
@@ -724,7 +727,7 @@
     }
 
     .blog-card-image {
-        max-height: 180px;
+        height: 180px;
     }
 
     /* Blog Pages End */

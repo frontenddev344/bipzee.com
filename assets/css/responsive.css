@@ -96,25 +96,95 @@
     .home-page-cards {
         height: 280px;
     }
-    .home-featured-card:last-child{
-        margin-bottom: 0;
-    }
 
     .page-signup-input {
         width: 50%;
     }
+
     .blog-cards-image {
-             max-height: 240px;
-         }
-    .accordion-button,  .accordion-body {
-        font-size: 15px;
-}
-    .footer {
-            padding: 30px 0;
+        max-height: 240px;
     }
+
+    .accordion-button,
+    .accordion-body {
+        font-size: 15px;
+    }
+
+    .footer {
+        padding: 30px 0;
+    }
+
     .copyright p {
         font-size: 15px;
     }
+
+    /* Pages CSS Start */
+    .pages-banner-text h1 {
+        font-size: 48px;
+    }
+    .blog-banner-text h1{
+        font-size: 36px; 
+     }
+  
+    .pages-banner-text h2 {
+        font-size: 28px;
+        max-width: 400px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 16px;
+    }
+
+    .pages-cards-group h3 {
+        font-size: 22px;
+    }
+
+    .pages-cards ul li,
+    .pages-cards-group p {
+        font-size: 16px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        font-size: 15px;
+        padding: 9px 15px;
+
+    }
+
+    .blog-btn {
+        font-size: 15px;
+    }
+
+    /* Blog Pages CSS Start */
+    .blog-pages-content-wrapper h2 {
+        font-size: 25px;
+    }
+    .blog-pages-content-wrapper>p {
+        font-size: 16px;
+    }
+    /* Blog Pages End */
+
+    /* Pages CSS End */
+
+    /* Cookies CSS Start */
+    #cookie-bar button {
+        float: left;
+        padding: 7px 15px;
+        font-size: 14px;
+        font-weight: 600;
+    }
+
+    #cookie-bar p {
+        font-size: 14px;
+        line-height: 20px;
+        width: 100%;
+    }
+
+    #contentcookie {
+        padding: 20px 10px;
+        width: 100%;
+    }
+    /* Cookies CSS End */
 
 
 }
@@ -145,21 +215,18 @@
         font-size: 15px;
     }
 
-    
+
 
     .home-page-cards {
         height: 250px;
     }
 
     .page-signup-wrapper h3 {
-        font-size: 16px;
+        font-size: 20px;
+        max-width: 500px;
     }
 
-  
 
-    .page-signup-section {
-        padding: 35px 0;
-    }
 
     .page-signup-input {
         width: 100%;
@@ -172,13 +239,109 @@
         font-size: 14px;
         margin-top: 10px;
     }
-    .accordion-button,  .accordion-body {
+
+    .accordion-button,
+    .accordion-body {
         font-size: 14px;
-}
+    }
+    .footer .footer-items ul li a{
+        font-size: 15px;
+    }
+
+
     .copyright p {
         font-size: 14px;
     }
 
+    /* Pages CSS Start */
+    .pages-banner-image {
+        height: 440px;
+    }
+    .blog-banner-image {
+        height: 350px;
+    }
+    .pages-banner-text h1 {
+        font-size: 40px;
+    }
+    .blog-banner-text h1{
+        font-size: 33px; 
+     }
+
+    .pages-banner-text h2 {
+        font-size: 25px;
+        max-width: 400px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 15px;
+    }
+
+    .home-page-cards-content a h3,
+    .home-featured-card-content h3,
+    .blog-cards-content h3 {
+        font-size: 22px;
+    }
+
+    .pages-cards-image {
+        height: 300px;
+    }
+
+    .pages-cards-content {
+        padding: 0;
+    }
+
+    .pages-cards-group h3 {
+        font-size: 22px;
+    }
+
+    .pages-cards ul li,
+    .pages-cards-group p {
+        font-size: 15px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        font-size: 15px;
+    }
+    .after-cards-para-wrapper p {
+        font-size: 14px;
+        padding: 10px;
+    }
+    .blog-card-group p {
+        font-weight: 500;
+        font-size: 15px;
+    }
+
+
+
+
+    .privacy-policy-group p,
+    .terms-conditions-group p {
+        font-size: 15px;
+    }
+
+
+    /* Blog Pages CSS Start */
+    .blog-pages-content-wrapper h2 {
+        font-size: 24px;
+    }
+    .blog-pages-content-wrapper>p {
+        font-size: 15px;
+    }
+
+    /* Blog Pages End */
+    /* Pages CSS End */
+
+      /* Cookies CSS Start */
+      #cookie-bar button {
+        font-size: 13px;
+    }
+
+    #cookie-bar p {
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
 
 }
 
@@ -194,15 +357,16 @@
     }
 
     .home-featured-card {
-        height: 250px;
-    }
-    .home-featured-card {
-        height: 300px;
+        height: 230px;
         margin-bottom: 30px;
     }
-    .home-featured-card:nth-child(2){
-        margin-bottom: 0;
+
+    .mb-sm-4 {
+        margin-bottom: 0 !important;
     }
+
+
+
 
     .home-page-intro p {
         font-size: 14px;
@@ -227,20 +391,136 @@
     }
 
 
-    .accordion-button,  .accordion-body {
+    .accordion-button,
+    .accordion-body {
         font-size: 13px;
-}
+    }
+
     .footer .footer-items ul li a {
-        font-size: 15px;
+        font-size: 14px;
+    }
+
+    .social-icons {
+        justify-content: flex-start;
+    }
+
+    .footer-items h3 {
+        font-size: 22px;
+    }
+
+    .logo-bottom img {
+        max-width: 210px;
     }
 
     .menu-links,
     .social-tags {
         width: 45%;
     }
+
     .copyright p {
         font-size: 13px;
     }
+
+    /* Pages CSS Start */
+    .pages-banner-image {
+        height: 350px;
+    }
+    .blog-banner-image {
+        height: 320px;
+    }
+
+    .pages-banner-text h1 {
+        font-size: 35px;
+    }
+    .blog-banner-text h1{
+        font-size: 30px; 
+     }
+ 
+
+    .pages-banner-text h2 {
+        font-size: 20px;
+        max-width: 400px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 14px;
+    }
+
+    .home-page-cards-content a h3,
+    .home-featured-card-content h3,
+    .blog-cards-content h3,
+    .blog-cards-content h3 {
+        font-size: 20px;
+    }
+
+
+    .pages-cards-group h3 {
+        font-size: 20px;
+    }
+
+    .pages-cards-image {
+        height: 270px;
+    }
+
+    .page-signup-wrapper h3 {
+        font-size: 19px;
+        max-width: 400px;
+    }
+
+    .pages-cards ul li,
+    .pages-cards-group p {
+        font-size: 14px;
+    }
+
+    .blog-btn {
+        font-size: 14px;
+    }
+
+
+    .text-left {
+        gap: 5px;
+    }
+
+    .btn-darkred-block,
+    .external-pages-link-btn {
+        font-size: 14px;
+
+    }
+    .after-cards-para-wrapper p {
+        font-size: 13px;
+    }
+    .blog-card-group p {
+        font-size: 14px;
+    }
+
+    .blog-pages-content-wrapper>p {
+        font-size: 14px;
+    }
+    .privacy-policy-group p,
+    .terms-conditions-group p {
+        font-size: 14px;
+    }
+
+
+    /* Blog Pages CSS Start */
+    .blog-pages-content-wrapper h2 {
+        font-size: 22px;
+    }
+    .blog-pages-content-wrapper>p {
+        font-size: 14px;
+    }
+
+
+    /* Blog Pages End */
+    /* Pages CSS End */
+    
+    /* Cookies CSS Start */
+    #cookie-bar p {
+        font-size: 13px;
+    }
+
+    /* Cookies CSS End */
+
 }
 
 @media screen and (max-width:480px) {
@@ -257,7 +537,7 @@
     }
 
     .banner-text h1 {
-        font-size: 40px;
+        font-size: 35px;
     }
 
     .banner-text h2 {
@@ -270,10 +550,12 @@
 
 
 
-    .accordion-button,  .accordion-body {
-            font-size: 12px;
+    .accordion-button,
+    .accordion-body {
+        font-size: 12px;
     }
-        .footer-items {
+
+    .footer-items {
         width: 100%;
         text-align: center;
         margin-bottom: 40px;
@@ -284,13 +566,99 @@
     }
 
     .footer .footer-items ul li a {
-        border-bottom: 1px solid transparent;
-        transition: 0.6s all ease;
-        text-align: center;
+          text-align: center;
+          font-size: 13px;
+    }
+    .footer-items h3 {
+        font-size: 21px;
+    }
+    .social-icons {
+        justify-content: center;
+    }
+    .logo-bottom img {
+        max-width: 180px;
     }
 
     .copyright p {
         font-size: 12px;
     }
 
+    /* Pages CSS Start */
+    .pages-banner-image {
+        height: 320px;
+    }
+    .blog-banner-image {
+        height: 285px;
+    }
+
+    .pages-banner-text h1 {
+        font-size: 35px;
+    }
+    .blog-banner-text h1{
+       font-size: 25px; 
+    }
+
+
+    .pages-banner-text h2 {
+        font-size: 18px;
+    }
+
+    .pages-intro-wrapper p {
+        font-size: 13px;
+    }
+
+    .pages-cards-image {
+        height: 180px;
+    }
+
+    .home-page-cards-content a h3,
+    .home-featured-card-content h3 {
+        font-size: 19px;
+    }
+
+    .pages-cards-group h3 {
+        font-size: 17px;
+    }
+
+    .pages-cards ul li,
+    .pages-cards-group p {
+        font-size: 13px;
+    }
+
+    .btn-darkred-block {
+        font-size: 12px;
+        padding: 8px 5px;
+    }
+
+    .external-pages-link-btn {
+        font-size: 12px;
+        padding: 8px 5px;
+    }
+
+    .blog-cards-image {
+        max-height: 180px;
+    }
+    .blog-card-group p {
+        font-size: 13px;
+    }
+    .blog-pages-content-wrapper>p {
+        font-size: 13px;
+    }
+
+    .privacy-policy-group p,
+    .terms-conditions-group p {
+        font-size: 13px;
+    }
+
+    /* Blog Pages CSS Start */
+    .blog-pages-content-wrapper h2 {
+        font-size: 20px;
+    }
+    .blog-pages-content-wrapper>p {
+        font-size: 13px;
+    }
+
+    /* Blog Pages End */
+
+    /* Pages CSS End */
 }

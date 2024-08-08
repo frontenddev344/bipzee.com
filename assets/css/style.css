@@ -432,7 +432,12 @@ h2.section-heading {
   padding: 10px 20px;
   outline: none;
   border: none;
+  font-weight: 500;
+  transition: 0.4s all ease-in-out;
 }
+.blog-btn:hover{
+transform: scale(1.05);
+  }
 
 .blog-card-image {
   width: 100%;

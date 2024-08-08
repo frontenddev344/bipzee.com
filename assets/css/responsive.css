@@ -122,10 +122,11 @@
     .pages-banner-text h1 {
         font-size: 48px;
     }
-    .blog-banner-text h1{
-        font-size: 36px; 
-     }
-  
+
+    .blog-banner-text h1 {
+        font-size: 36px;
+    }
+
     .pages-banner-text h2 {
         font-size: 28px;
         max-width: 400px;
@@ -159,9 +160,11 @@
     .blog-pages-content-wrapper h2 {
         font-size: 25px;
     }
+
     .blog-pages-content-wrapper>p {
         font-size: 16px;
     }
+
     /* Blog Pages End */
 
     /* Pages CSS End */
@@ -184,6 +187,7 @@
         padding: 20px 10px;
         width: 100%;
     }
+
     /* Cookies CSS End */
 
 
@@ -244,7 +248,8 @@
     .accordion-body {
         font-size: 14px;
     }
-    .footer .footer-items ul li a{
+
+    .footer .footer-items ul li a {
         font-size: 15px;
     }
 
@@ -257,15 +262,18 @@
     .pages-banner-image {
         height: 440px;
     }
+
     .blog-banner-image {
         height: 350px;
     }
+
     .pages-banner-text h1 {
         font-size: 40px;
     }
-    .blog-banner-text h1{
-        font-size: 33px; 
-     }
+
+    .blog-banner-text h1 {
+        font-size: 33px;
+    }
 
     .pages-banner-text h2 {
         font-size: 25px;
@@ -303,10 +311,12 @@
     .external-pages-link-btn {
         font-size: 15px;
     }
+
     .after-cards-para-wrapper p {
         font-size: 14px;
         padding: 10px;
     }
+
     .blog-card-group p {
         font-weight: 500;
         font-size: 15px;
@@ -325,15 +335,23 @@
     .blog-pages-content-wrapper h2 {
         font-size: 24px;
     }
+
     .blog-pages-content-wrapper>p {
         font-size: 15px;
+    }
+
+    .blog-card-image {
+        max-height: 230px;
+    }
+    .short-cards-image {
+            height: 130px;
     }
 
     /* Blog Pages End */
     /* Pages CSS End */
 
-      /* Cookies CSS Start */
-      #cookie-bar button {
+    /* Cookies CSS Start */
+    #cookie-bar button {
         font-size: 13px;
     }
 
@@ -425,6 +443,7 @@
     .pages-banner-image {
         height: 350px;
     }
+
     .blog-banner-image {
         height: 320px;
     }
@@ -432,10 +451,11 @@
     .pages-banner-text h1 {
         font-size: 35px;
     }
-    .blog-banner-text h1{
-        font-size: 30px; 
-     }
- 
+
+    .blog-banner-text h1 {
+        font-size: 30px;
+    }
+
 
     .pages-banner-text h2 {
         font-size: 20px;
@@ -486,9 +506,11 @@
         font-size: 14px;
 
     }
+
     .after-cards-para-wrapper p {
         font-size: 13px;
     }
+
     .blog-card-group p {
         font-size: 14px;
     }
@@ -496,6 +518,7 @@
     .blog-pages-content-wrapper>p {
         font-size: 14px;
     }
+
     .privacy-policy-group p,
     .terms-conditions-group p {
         font-size: 14px;
@@ -506,14 +529,20 @@
     .blog-pages-content-wrapper h2 {
         font-size: 22px;
     }
+
     .blog-pages-content-wrapper>p {
         font-size: 14px;
     }
-
+    .blog-card-image {
+        max-height: 200px;
+    }
+    .short-cards-image {
+            height:110px;
+    }
 
     /* Blog Pages End */
     /* Pages CSS End */
-    
+
     /* Cookies CSS Start */
     #cookie-bar p {
         font-size: 13px;
@@ -566,15 +595,18 @@
     }
 
     .footer .footer-items ul li a {
-          text-align: center;
-          font-size: 13px;
+        text-align: center;
+        font-size: 13px;
     }
+
     .footer-items h3 {
         font-size: 21px;
     }
+
     .social-icons {
         justify-content: center;
     }
+
     .logo-bottom img {
         max-width: 180px;
     }
@@ -587,6 +619,7 @@
     .pages-banner-image {
         height: 320px;
     }
+
     .blog-banner-image {
         height: 285px;
     }
@@ -594,8 +627,9 @@
     .pages-banner-text h1 {
         font-size: 35px;
     }
-    .blog-banner-text h1{
-       font-size: 25px; 
+
+    .blog-banner-text h1 {
+        font-size: 25px;
     }
 
 
@@ -638,9 +672,11 @@
     .blog-cards-image {
         max-height: 180px;
     }
+
     .blog-card-group p {
         font-size: 13px;
     }
+
     .blog-pages-content-wrapper>p {
         font-size: 13px;
     }
@@ -654,8 +690,12 @@
     .blog-pages-content-wrapper h2 {
         font-size: 20px;
     }
+
     .blog-pages-content-wrapper>p {
         font-size: 13px;
+    }
+    .blog-card-image {
+        max-height: 180px;
     }
 
     /* Blog Pages End */

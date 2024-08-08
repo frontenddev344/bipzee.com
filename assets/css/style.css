@@ -625,6 +625,7 @@ h2.section-heading {
   flex-wrap: wrap;
   padding-bottom: 30px;
   overflow: hidden;
+  border-bottom: 1px solid #fff;
 }
 
 .logo-bottom img {
@@ -684,8 +685,7 @@ color: #ffd700;
   padding: 15px 0;
   text-align: center;
   margin: auto 0;
-  border: 1px solid #ffd700;
-  max-width: 450px;
+    max-width: 450px;
   margin: 0 auto;
 }
 

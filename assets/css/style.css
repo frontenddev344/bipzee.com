@@ -207,7 +207,7 @@ h2.section-heading {
 .banner-text-group {
   animation: gobig 2s ease-in-out forwards;
   opacity: 0;
-  transform: scale(0) translateX(-200%);
+  transform: scale(0) translateX(-100%);
   text-align: center;
 }
 

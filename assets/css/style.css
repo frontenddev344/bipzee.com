@@ -137,7 +137,7 @@ h2.section-heading {
   display: none;
 }
 .fixed-header {
-  background: linear-gradient(to bottom, #d42020 , #b74b4b);
+  background: linear-gradient(to top, #d42020 , #b74b4b);
   border-bottom: 1px solid transparent;
   /* background: linear-gradient(to top, #01889f , #406fe6);
   background: linear-gradient(to bottom, #fa7a7a , #eea6a6); */

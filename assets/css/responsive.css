@@ -99,7 +99,7 @@
     }
 
     .page-signup-input {
-        width: 50%;
+        width: 65%;
     }
 
     .blog-cards-image {
@@ -242,7 +242,6 @@
 
 
     .page-signup-input {
-        width: 85%;
         font-size: 15px;
         padding: 8px 15px;
     }
@@ -318,7 +317,7 @@
 
     .btn-darkred-block,
     .external-pages-link-btn {
-        font-size: 15px;
+        font-size: 14px;
     }
 
     .after-cards-para-wrapper p {
@@ -528,7 +527,7 @@
 
     .btn-darkred-block,
     .external-pages-link-btn {
-        font-size: 14px;
+        font-size: 13px;
 
     }
 
@@ -697,12 +696,12 @@
 
     .btn-darkred-block {
         font-size: 12px;
-        padding: 8px 5px;
+        padding: 8px 6px;
     }
 
     .external-pages-link-btn {
         font-size: 12px;
-        padding: 8px 5px;
+        padding: 8px 6px;
     }
 
     .blog-cards-image {

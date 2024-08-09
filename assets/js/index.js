@@ -28,7 +28,7 @@ $('.subpage-readmore-btn').click(function (e) {
   // console.log('click');
   $(this).parent().prev().slideToggle('slow');
   // $('.subpage-exp-content').slideToggle('slow');
-  $(this).text($(this).text() == 'Read Less' ? 'Read More' : 'Read Less');
+  $(this).text($(this).text() == 'Olvass kevesebbet' ? 'Olvasson tovább' : 'Olvass kevesebbet');
 });
 
 // Read More Functionality JS end

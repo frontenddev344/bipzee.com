@@ -433,10 +433,13 @@ h2.section-heading {
   outline: none;
   border: none;
   font-weight: 500;
-  transition: 0.4s all ease-in-out;
+  transition: 0.2s all ease-in-out;
+  border: 1px solid transparent;
 }
 .blog-btn:hover{
-transform: scale(1.05);
+background:#fff;
+color: #841010;
+border-color: #b42121;
   }
 
 .blog-card-image {
@@ -612,9 +615,7 @@ transform: scale(1.05);
   font-weight: 500;
   font-size: 17px;
 }
-[type=button]:not(:disabled), [type=reset]:not(:disabled), [type=submit]:not(:disabled), button:not(:disabled) {
-  line-height: 1.5;
-}
+
 
 /* Home Page FAQ Section CSS End */
 
@@ -837,7 +838,8 @@ color: #ffd700;
 .text-left {
   display: flex;
   gap: 10px;
-}
+  width: 100%;
+  }
 
 /* Pages Cards CSS Start */
 

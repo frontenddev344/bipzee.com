@@ -223,13 +223,11 @@ h2.section-heading {
   border-radius: 5px;
   overflow: hidden;
 }
-
 .home-page-cards-image {
   overflow: hidden;
   height: 100%;
   width: 100%;
 }
-
 .home-page-cards-image a {
   width: 100%;
   height: 100%;

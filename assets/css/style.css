@@ -127,10 +127,6 @@ h2.section-heading {
   border-bottom: 1px solid transparent;
 }
 
-.desktop-hidden-menu {
-  display: none;
-}
-
 .main-navbar ul li a.active,
 .main-navbar ul li a:hover {
   border-bottom: 1px solid #ffd700;

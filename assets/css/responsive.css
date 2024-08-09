@@ -379,6 +379,11 @@
 
 @media screen and (max-width:575px) {
 
+    .logo img {
+        max-width: 80px;
+    }
+
+
     .banner-image {
         height: 400px;
     }
@@ -587,7 +592,7 @@
 
 @media screen and (max-width:480px) {
     .logo img {
-        max-width: 80px;
+        max-width: 70px;
     }
 
     .banner-image {

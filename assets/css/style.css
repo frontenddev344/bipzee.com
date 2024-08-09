@@ -770,9 +770,6 @@ color: #ffd700;
 }
 
 .pages-banner-text-group {
-  animation: slidedown 1.5s ease-in-out forwards;
-  opacity: 0;
-  transform: translateY(-200%);
   text-align: center;
   overflow: hidden;
 }
@@ -784,12 +781,6 @@ color: #ffd700;
   background-color: rgba(0 0 0/55%); 
 }
 
-@keyframes slidedown {
-  to {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 .heading-like {
   font-weight: 700;
   color: #841010;

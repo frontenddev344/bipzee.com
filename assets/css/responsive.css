@@ -114,6 +114,9 @@
     .footer {
         padding: 30px 0;
     }
+    .logo-bottom img {
+         max-width: 105px;
+    }
 
     .copyright p {
         font-size: 15px;
@@ -443,7 +446,7 @@
     }
 
     .logo-bottom img {
-        max-width: 210px;
+        max-width: 90px;
     }
 
     .menu-links,
@@ -637,10 +640,7 @@
         justify-content: center;
     }
 
-    .logo-bottom img {
-        max-width: 180px;
-    }
-
+  
     .copyright p {
         font-size: 12px;
     }

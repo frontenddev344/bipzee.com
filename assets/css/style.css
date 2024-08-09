@@ -137,12 +137,11 @@ h2.section-heading {
   display: none;
 }
 .fixed-header {
-  /* background: linear-gradient(to bottom, #d42020 , #b74b4b); */
-
+  background: linear-gradient(to bottom, #d42020 , #b74b4b);
   border-bottom: 1px solid transparent;
   /* background: linear-gradient(to top, #01889f , #406fe6);
   background: linear-gradient(to bottom, #fa7a7a , #eea6a6); */
-  background: #e57272;
+  /* background: #e57272; */
 }
 .menu-icon {
   display: none;
@@ -318,6 +317,7 @@ h2.section-heading {
 .page-signup-submit-button {
   display: inline-block;
   background:linear-gradient(to top , #841010 , #cb4545);
+  background-color: #e57272;
   /* background: linear-gradient(to top, #01889f , #406fe6); */
   color: #fff;
   padding: 10px 25px;
@@ -427,6 +427,7 @@ h2.section-heading {
 .blog-btn {
   background:linear-gradient(to top , #841010 , #cb4545);
   /* background: linear-gradient(to top, #01889f , #406fe6); */
+  /* background-color: #e57272; */
   color: #fff;
   padding: 10px 20px;
   outline: none;
@@ -572,6 +573,7 @@ border-color: #b42121;
 .accordion-button:not(.collapsed) {
   background:linear-gradient(to top , #841010 , #cb4545);
   /* background: linear-gradient(to top, #01889f , #406fe6); */
+  /* background-color: #e57272; */
   box-shadow: none;
   color: #fff;
 }
@@ -587,6 +589,7 @@ border-color: #b42121;
 .accordion-button {
   background:linear-gradient(to top , #841010 , #cb4545);
   /* background: linear-gradient(to top, #01889f , #406fe6); */
+  /* background-color: #e57272; */
   color: #fff;
 }
 
